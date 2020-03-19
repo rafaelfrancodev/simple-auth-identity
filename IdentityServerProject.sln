@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{FA8CE264-E584-4199-B186-0D5A07362E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{4049FEB5-7FF7-4650-BEB8-8DEDAB68E31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{2EDAA21F-7CA6-4122-8EDC-F778CE0233D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8CE264-E584-4199-B186-0D5A07362E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8CE264-E584-4199-B186-0D5A07362E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8CE264-E584-4199-B186-0D5A07362E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8CE264-E584-4199-B186-0D5A07362E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4049FEB5-7FF7-4650-BEB8-8DEDAB68E31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4049FEB5-7FF7-4650-BEB8-8DEDAB68E31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4049FEB5-7FF7-4650-BEB8-8DEDAB68E31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4049FEB5-7FF7-4650-BEB8-8DEDAB68E31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDAA21F-7CA6-4122-8EDC-F778CE0233D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDAA21F-7CA6-4122-8EDC-F778CE0233D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDAA21F-7CA6-4122-8EDC-F778CE0233D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDAA21F-7CA6-4122-8EDC-F778CE0233D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4E5A80-35E7-42D4-835E-0CEC1ACA1BFD}
+	EndGlobalSection
+EndGlobal
